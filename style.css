@@ -1,0 +1,127 @@
+
+/*main section*/
+section {
+    border:solid 2px white ;
+    display:flex;
+    flex-direction: column;
+    background-color:#c769f6;
+    margin-bottom: 10px;
+    box-shadow:inset 2px 2px 2px rgb(128, 128, 128);
+    background-image: url("images/knight.png");
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position-x:-160px;
+    background-position-y: bottom ;    
+}
+body {
+
+    display:flex;
+    flex-direction: column;
+    background-color:#daaaf2;
+
+}
+
+
+img {
+    margin: 5px;
+    border: solid 2px purple ;
+    border-radius: 20px;
+    max-height: 12rem;
+    box-shadow: 2px 2px 1px ;
+  
+
+   
+
+}
+
+#shoes {
+    margin-top:3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section p {
+   margin-top: 40px;
+   text-align: center;
+   color:#fff200;
+   font-size: large;
+   text-shadow: 2px 2px 7px rgb(183, 0, 0);
+   margin-bottom: 40px;
+   
+}
+
+/*products styles*/
+/*add to the cart button for all products section, created in the script in the products folder*/
+.button {
+    list-style: none;
+    border: solid 1px;
+    border-radius: 15px;
+    padding: 10px;
+    margin:20px; /*creates a little space bettwen nav buttons*/
+    box-shadow: 4px 2px 3px black;
+    background-color: #ffc40c;
+    width: 50%;
+    align-self: center;/*it's parent container flexbox created in js (products) allows for self alignment of the button*/
+}
+.button.pressed {
+    box-shadow: none;
+}
+
+/* style form for contact us page*/
+
+form {
+    border:dotted white 6px;
+    padding: 35px;
+    display:flex ;
+    flex-direction: column;
+    width: 50%;
+    align-self: center;
+    margin: 50px 0px; /*add top and bottom margin*/
+}
+
+form :nth-child(even){
+    margin-bottom: 12px;
+}
+form label {
+    margin-bottom: 5px;
+}
+/*change input field heights*/
+
+input {
+    height:20px;
+}
+
+/*style about us section*/
+
+article {
+   
+    border: dotted white 5px;
+    line-height: 1.5em;/*add space between lines*/
+    padding: 2em;/*add space between the border and the content of the seciton*/
+    margin: 10px;  
+    border-top: none;
+}
+#forBackground {
+    height: 150px;
+    background-image:url(images/icon.png.png);
+    background-size: 130px 130px;
+    background-repeat: repeat-x;
+    background-position: center;
+    width: 80%;
+    display: flex;
+    align-self: center;
+}
+
+
+#submit {
+    width: 100px;
+    border-radius: 15px;
+    margin-top: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    align-self: center;
+}

@@ -1,0 +1,76 @@
+h1{
+    text-align: center;
+    font-family: 'Lobster Two', sans-serif;/*google fonts*/
+    margin-bottom: 0px;
+    color:#fff200;
+    text-shadow: 2px 2px 7px rgb(183, 0, 0);
+    margin-top: 30px;
+}
+/*navigation*/
+ul {
+    display:flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    padding:10px;
+
+
+}
+
+li {
+    list-style: none;
+    border: solid 1px;
+    border-radius: 15px;
+    padding: 10px;
+    margin:5px; /*creates a little space bettwen nav buttons*/
+    box-shadow: 4px 2px 3px black;
+    background-color: #ffc40c;
+
+    
+}
+
+
+header {
+    border:solid 2px white;
+    display:flex;
+    flex-direction: column;
+    background-color:#9000d7;
+    margin-bottom: 10px;
+    box-shadow:inset 2px 2px 2px grey;
+    border-top: none;
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position-y:1.4rem;
+    background-position-x:1rem;/*shopping cart*/
+
+   
+   
+}
+
+footer {
+    box-shadow: 2px 2px 2px grey;
+    border:solid thin;
+    display:flex;
+    flex-direction: column;
+    background-color:#9000d7;
+    flex-wrap: wrap;
+    text-decoration: overline;
+    padding: 15px;
+    color:white;
+    text-align: center;
+   
+}
+
+section h1 {
+    font-size: 170%;   /* makes all h1's of the main sections slightly bigger*/
+    margin-top: 50px;
+}
+section {
+    padding-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+a:active {
+    color: greenyellow;
+}
