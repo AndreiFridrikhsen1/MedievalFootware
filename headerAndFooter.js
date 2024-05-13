@@ -1,6 +1,6 @@
 // create global header and footer 
 //header 
-const navLinks = ['<a href="/index.html">Main page</a>','<a href="/cart/index.html">Shopping cart</a>','<a href="/products/index.html">All our products</a>', '<a href="/contact/index.html">Contact us</a>', '<a href="/about us/index.html">About us</a>'];
+const navLinks = ['<a href="./index.html">Main page</a>','<a href="./cart/index.html">Shopping cart</a>','<a href="./products/index.html">All our products</a>', '<a href="./contact/index.html">Contact us</a>', '<a href="./about us/index.html">About us</a>'];
 const header = document.createElement('header');
 const nav = document.createElement('nav');
 const ul = document.createElement('ul');
