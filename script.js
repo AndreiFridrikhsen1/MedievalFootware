@@ -2,7 +2,7 @@
 
 let img = document.querySelectorAll("img");// get all 3 images
 
-let links = ["/images/shoes1.png","/images/shoes2.png","/images/shoes3.png","/images/shoes4.png", "/images/shoes5.png", "/images/shoes6.png", "/images/shoes7.png"];
+let links = ["./images/shoes1.png","./images/shoes2.png","./images/shoes3.png","./images/shoes4.png", "./images/shoes5.png", "./images/shoes6.png", "./images/shoes7.png"];
 // store links in local storage 
 localStorage.setItem("links", JSON.stringify(links));
 
